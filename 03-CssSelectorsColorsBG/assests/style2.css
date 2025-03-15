@@ -1,0 +1,47 @@
+
+body{
+    background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm00MjItMDczLWt6cGhnMjR1LmpwZw.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.div1{
+    text-align: center;
+    margin-top: 100px;
+}
+.div2{
+    text-align: center;
+    margin-top: 100px;
+}
+.div3{
+    text-align: center;
+    padding-top: 200px;
+}
+div.scroll{
+    width: 600px;
+    height: 500px;
+    background-image:url(https://static.vecteezy.com/system/resources/thumbnails/053/856/736/small/beautiful-blue-sky-with-a-few-red-flowers-in-the-foreground-the-flowers-are-scattered-throughout-the-scene-with-some-in-the-foreground-and-others-in-the-background-free-photo.jpg) ;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin-left: 500px;
+}
+div.body{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/029/470/675/small_2x/ai-generated-ai-generative-purple-pink-color-sunset-evening-nature-outdoor-lake-with-mountains-landscape-background-graphic-art-photo.jpg);
+    width: 100vh;
+    height: 500px;
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    margin-left: 500px;
+    background-size: cover;
+}
+div.photo{
+    width: 50vh;
+    height: 200px;
+    margin-left: 200px;
+    margin-top: 100px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1),rgba(255, 255, 255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+}

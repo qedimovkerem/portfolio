@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+.box{
+    background-color: beige;
+    width: 900px;
+    height: 700px;
+    margin-left: 300px;
+    border: 2px solid black;
+}
+.container{
+    margin: auto;
+    width: 860px;
+    text-align: center;
+    margin-top: 100px;
+}
+.p1{
+    font-family: Ponoram;
+    text-transform: capitalize;
+    font-size: 36px;
+    color: gold;
+}
+.p2{
+    font-family: Parisienne;
+    font-size: 76px;
+    letter-spacing: 10px;
+}
+.p3{
+    font-family: ponoram;
+    text-transform: uppercase;
+    font-size: 48px;
+    color: gold;
+}
+.p4{
+    font-family: Ponomar;
+    font-size: 36px;
+    letter-spacing: 10px;
+}
+.p5{
+    font-family: Parisienne;
+    font-size: 30px;
+}
+.p6{
+    font-family: Ponomar;
+    font-size: 26px;
+}
+div.head{
+    background-color: coral;
+    margin-top: 255px;
+    width: 850px;
+}

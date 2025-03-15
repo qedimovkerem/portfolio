@@ -1,0 +1,226 @@
+#head{
+    height: 104px;
+    background-color: rgba(44, 62, 80);
+}
+.navbar{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.start {
+    font-size: 1.8rem;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.list ul{
+    display: flex;
+    gap: 1rem;
+}
+.list ul li{
+    justify-content: end;
+    padding: 20px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.list ul li:hover{
+    background-color:  rgb(9, 20, 31);
+}
+.list ul li a:hover{
+    color: #198754;
+}
+main{
+    background-color: #1abc9c;
+     height: 680px; 
+}
+.image{
+    height: 260px;
+    width: 250px;
+    margin-top: 5.5rem;
+}
+.after{
+    width: 120px;
+    height: 5px;
+    border-radius: 20px;
+    background-color: white;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+.star{
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+.start-boot{
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: white;
+}
+.para{
+    color: white;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+.port{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+.before{
+    width: 120px;
+    height: 5px;
+    border-radius: 20px;
+    background-color: rgba(44, 62, 80);
+}
+.star2{
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+.Portfolio{
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: rgba(44, 62, 80);
+}
+.head1{
+    padding-top: 120px;
+}
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 50px;
+}
+.esas{
+    width: 25rem;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.esas:hover{
+    cursor: pointer;
+}
+#about{
+    background-color: #1abc9c;
+    height: 400px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.h2{
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding-top: 80px;
+    color: white;
+}
+.soz{
+    display: flex;
+    gap: 30px;
+}
+.btn{
+    width: 200px;
+    height: 50px;
+}
+.contact{
+    display: flex;
+    padding-top: 30px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+button.free{
+    width: 100%;
+    height: 100%;
+    background-color: #1abc9c;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+button.free:hover{
+    background-color: white;
+    color: black;
+}
+.send{
+    width: 100%;
+    height: 100%;
+    background-color: #1abc9c;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+}
+.startt{
+    text-decoration: underline;
+    color: #1abc9c;
+}
+footer{
+    background-color:  rgba(44, 62, 80);
+    height: 200px;
+    margin-top: 40px;
+}
+.icon{
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.icon1{
+    display: flex;
+    gap: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.foot{
+    color: white;
+}
+h3{
+    font-family: sans-serif;
+    font-size: 30px;
+}
+#username{
+    width: 400px;
+    height: 30px;
+}
+#email{
+    width: 400px;
+    height: 30px;
+}
+#number{
+    width: 400px;
+    height: 30px;
+}
+#message{
+    width: 400px;
+    height: 70px;
+}

@@ -1,0 +1,162 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#asidenavbar{
+    float: left;
+    width: 320px;
+    background-color: rgb(203, 207, 207);
+}
+.container{
+    width: 220px;
+    margin: 0 auto;
+}
+.navbar{
+    margin-top: 30px;
+}
+.search{
+    width: 220px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+#search{
+    margin: 10px;
+    border: 0;
+    outline: 0;
+}
+h3{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(83, 73, 73);
+    padding-top: 30px;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    padding-top: 10px;
+}
+.categories{
+    position: relative;
+}
+.chevron{
+    position: absolute;
+    top: 0;
+    right: 5px;
+}
+.XL{
+    height: 30px;
+    width: 60px;
+    margin-bottom: 5px;
+    background-color: white;
+    border: 1px solid black;
+}
+.XXL{
+    width: 80px;
+    height: 30px;
+    margin-bottom: 5px;
+    background-color: white;
+    border: 1px solid black;
+}
+.colors{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.color{
+    position: relative;
+}
+.clr{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.tags{
+    width: 100px;
+    padding: 5px;
+    background-color: antiquewhite;
+    border: 1px solid  antiquewhite;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+.colunms{
+    width: 220px;
+    height: 1px;
+    background-color: black;
+    margin-top: 20px;
+}
+main{
+    position: relative;
+    margin-left: 320px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 300px;
+    padding: 10px;
+    border: 1 px solid black;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.image{
+    width: 100%;
+    height: 250px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.card_content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sale{
+    height: 20px;
+    width: 100px;
+    color: white;
+    background-color: black;
+    position: absolute;
+    top: 20px;
+}
+footer{
+    height: 300px;
+}
+.foot{
+    margin-left: 800px;
+    margin-top: 100px;
+}
+.footer1{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+.title{
+    position: relative;
+}
+.paragraf1{
+    position: absolute;
+    width: 200px;
+}
+.paragraf2{
+    position: absolute;
+    left: 900px;
+    width: 100px;
+}
+
+
+

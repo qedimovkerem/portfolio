@@ -1,0 +1,333 @@
+ .logo{
+    /* width: 19.5rem; */
+    height: 5.9rem;
+}
+.icon{
+    display: none;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 9rem;
+}
+.list{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: end;
+    /* width: 80rem; */
+}
+.home{
+    color: #aaaaaa;
+} 
+.image1{
+    width: 150rem;
+    height:65rem;
+    position: relative;
+}
+.card_content{
+    position: absolute;
+    /* width: 50rem; */
+    height: 40rem;
+    top: 25rem;
+    left: 9rem;
+    color: white;
+}
+.card1_btn{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    height: 5rem;
+    width: 12rem;
+}
+.card1_btn:hover{
+    color: black;
+    background-color: white;
+}
+
+.image{
+    width: 35rem;
+    height: 31rem;
+    position: relative;
+}
+.main{
+    display: flex;
+    gap: 3rem;
+    padding-top: 50px; 
+    padding-bottom: 10px;
+    /* margin: 3rem; */
+} 
+
+.photo{
+    display: flex;
+     gap: 3rem;
+    flex-wrap: wrap;
+ } 
+ .card_content1{
+    position: absolute;
+    /* width: 50rem; */
+    height: 40rem;
+    top: 5rem;
+    left: 9rem;
+    color: white;
+}
+.card2_btn{
+    background-color: transparent;
+    display: none;
+    border: 1px solid white;
+    color: white;
+    height: 5rem;
+    width: 12rem;
+}
+.card2_btn:hover{
+    color: black;
+    background-color: white;
+}
+.main_men{
+    margin-top: 5rem;
+}
+.card_men{
+    width: 35rem;
+    height: 46rem;
+}
+.card_women{
+        width: 35rem;
+        height: 46rem;
+}
+.card_mens{
+    display: flex;
+    gap: 2rem;
+}
+.star{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+.cart{
+    margin-bottom: 60px;
+}
+.cart1{
+    margin-bottom: 60px;
+}
+.para1{
+    color: #aaaaaa;
+}
+.photo1{
+    width: 25.5rem;
+    height: 25.5rem;
+    position: relative;
+}
+.photo5{
+    width: 25.5rem;
+    height: 25.5rem;
+    position: relative;
+}
+.Explore_Our_Products{
+    display: flex;
+    margin-top: 3rem;
+    gap: 7rem;
+}
+.paragraf_photo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+.paragraf{
+    width: 90rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+.explore_btn{
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.explore_btn:hover{
+    background-color: black;
+    color: white;
+}
+.sosial_media_photo{
+    width: 18.5rem;
+    height: 18.5rem;
+}
+.sosial_photo{
+    display: flex;
+    justify-content: center;
+}
+.sosial_media_title{
+    margin-bottom: 5rem;
+}
+.login{
+    font-size: 36px;
+}
+.text{
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+.email{
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+#text{
+    outline: 0;
+    border: 0;
+}
+.foot_main{
+    display: flex;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+.input{
+    display: flex;
+    gap: 3rem;
+}
+.icon_btn{
+    background-color: black;
+    height: 30px;
+    width: 30px;
+}
+.connetion{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    text-align: justify;
+    gap: 3rem;
+}
+
+ #fotter{
+    background-color: #2a2a2a;
+ }
+  .footer{
+    display: flex;
+    /* height: 30rem; */
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+  } 
+.shopping{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.footers .footer_li a{
+    color: white;
+}
+.footers .footer_li{
+    padding-bottom: 3rem;
+} 
+.foot_paragraf{
+    margin: 10px;
+}
+.foot_title{
+    text-align: center;
+    color: white;
+}
+.foot_icon{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 20px;
+}
+ @media (max-width : 992px){
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .image1, .image{
+        width: 100%;
+    }
+    .photo{
+        display: flex;
+        flex-direction: column;
+        gap: 50rem;
+    }
+    .cart{
+        margin-top: 50rem;
+    }
+    .card_women{
+        display: none;
+    }
+    .container{
+        max-width: 800px;
+    }
+    .Explore_Our_Products{
+        display: flex;
+        flex-direction: column;
+    }
+    .paragraf_photo{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .photo1{
+        width: 100%;
+        margin-bottom: 60rem;
+    }
+    .photo5{
+        width: 100%;
+        height: 50rem;
+        margin-bottom: 10px;
+    }
+    .paragraf{
+        width: 600px;
+    }
+    .foot_main{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+    }
+    .input{
+        display: flex;
+        flex-direction: column;
+    }
+    .text{
+        width: 600px;
+        height: 40px;
+    }
+    .email{
+        width: 600px;
+        height: 40px;
+    }
+    .icon_btn{
+        width: 600px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .footers{
+        padding-bottom: 0px;
+    }
+}
+@media (max-width : 768px){
+     .icon{
+        display: inline-block;
+    }
+    .logo{
+        display: none;
+    }
+    .nav{
+        display: flex;
+        align-items: center;
+        gap: 40rem;
+    }
+    .container{
+        max-width: 640px;
+    }
+    .footer{
+        align-items: center;
+    }
+    
+}

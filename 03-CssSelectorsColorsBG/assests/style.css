@@ -1,0 +1,98 @@
+button.click{
+    width: 200px;
+    height: 40px;
+}
+/* CSS :activepsevdo-sinifi istifadəçi tərəfindən aktivləşdirilən elementi seçmək və üslub etmək üçün istifadə olunur.
+
+Pseudo :active-sinif ən çox <a> və <button> elementlərində istifadə olunur. İstifadəçi kliklədikdə bir keçid aktivləşir, eyni şey düymə üçün də gedir. */
+button.click:active{
+    background-color: red;
+}
+/* CSS :any-linkpsevdo-sinfi hiperlinkin mənbə ankeri kimi çıxış edən elementi seçmək və üslub etmək üçün istifadə olunur.
+
+Linkə daxil olub-olmamağın əhəmiyyəti yoxdur. */
+a.a1:any-link{
+    background-color: red;
+}
+/* CSS :checkedpsevdo-sinifi yoxlanılan hər hansı <input> və ya <option> elementinə uyğun gəlir.
+
+Bu, <select> elementində <input type="radio">, <input type="checkbox"> və <option> üçündür.
+
+ */
+input:checked{
+    outline: 1px solid red;
+}
+/* CSS :defaultpsevdo-sinfi əlaqəli elementlər qrupunda standart forma elementini seçir.
+
+Bu psevdo-sinif <button>, <input type="checkbox">, <input type="radio"> və <option> elementlərində istifadə oluna bilər. */
+option:default{
+    background-color: red;
+}
+/*  CSS :disabledpsevdo-sinifi hər hansı əlil elementi seçmək və üslub etmək üçün istifadə olunur (əsasən forma elementlərində istifadə olunur).*/
+button.dis:disabled {
+    background-color: blue;
+}
+/* Pseudo -klass hər hansı aktiv elementi seçmək və üslub etmək üçün istifadə olunur (əsasən forma elementlərində istifadə olunur).  :enabled  */
+button.dis1:enabled{
+    background-color: red;
+}
+div.box{
+    width: 60px;
+    height: 50px;
+    background-color: royalblue;
+}
+/* CSS :emptypsevdo-sinifi uşaqları olmayan hər bir elementə (mətn qovşaqları daxil olmaqla) uyğun gəlir. */
+div.box:empty{
+    background-color: red;
+}
+/* CSS :first-childpsevdo-sinifi öz valideyninin ilk övladı olan elementi seçir (qardaş elementlər qrupu arasında). */
+p.div1:first-child {
+    background-color: red;
+} 
+/* CSS :first-of-typepsevdo-sinifi qardaş elementlər qrupu arasında öz növünün birinci elementini seçir. */
+p.p1:first-of-type{
+    background-color: yellow;
+}
+/* CSS :focuspsevdo-sinfi diqqəti cəlb edən elementi seçmək və üslub etmək üçün istifadə olunur. */
+input:focus{
+    background-color: red;
+}
+/* CSS :hoverpsevdo-sinfi siçan ilə onların üzərindən keçdiyiniz zaman elementləri seçmək üçün istifadə olunur.
+
+İpucu: Pseudo :hover-sinif yalnız keçidlərdə deyil, bütün elementlərdə istifadə edilə bilər. */
+a.hovr:hover{
+    font-size: 18px;
+}
+/* CSS :targetpsevdo-sinifi cari aktiv hədəf elementinin üslubu üçün istifadə olunur.
+
+İpucu: # və ardınca lövbər adı olan URL sənəddəki xüsusi elementə keçid verir. Əlaqələndirilən element hədəf elementdir. */
+:target {
+    border: 2px solid darkorange;
+    background-color: beige;
+  }
+  /* CSS :visitedpsevdo-sinfi ziyarət edilən bağlantıları üslub etmək üçün istifadə olunur.
+
+İpucu: İstifadə edin : : baxılmamış səhifələrə üslub keçidləri, : siçan ilə üzərlərinə siçan vurduqda üslub keçidləri üçün siçan üzərinə sürün və : onlara kliklədiyiniz zaman üslub keçidləri aktivləşdirin. */
+  a.a2:visited {
+    color:red;
+  }
+  /* CSS psevdo-sinifi valideyninin n -ci uşağı olan istənilən elementə uyğun gəlir .:nth-child(n)
+
+Bu psevdo-sinif onların valideynlərinin uşaq siyahısındakı elementlərin indekslərinə əsaslanan elementlərə uyğun gəlir.
+
+n ədəd/indeks, açar söz (tək və ya cüt) və ya düstur (+ b kimi ) ola bilər . */
+  li.li:nth-child(3){
+    background-color: red;
+  }
+  /* CSS psevdo-sinifi sonuncu uşaqdan saymaqla, növündən asılı olmayaraq, n -ci uşaq olan hər bir elementə uyğun gəlir .:nth-last-child(n)
+
+n ədəd/indeks, açar söz (tək və ya cüt) və ya düstur (+ b kimi ) ola bilər . */
+li.li1:nth-last-child(4){
+    background-color: royalblue;
+}
+/* CSS psevdo-sinifi sonuncu uşaqdan saymaqla, müəyyən bir növün, onun valideyninin n -ci uşaq olan hər bir elementə uyğun gəlir .:nth-last-of-type(n)
+
+n ədəd/indeks, açar söz (tək və ya cüt) və ya düstur (+ b kimi ) ola bilər . */
+li.li2:nth-last-of-type(3){
+    background-color: red ;
+}
