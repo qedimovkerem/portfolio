@@ -1,0 +1,139 @@
+*, 
+::after
+::before{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(image/front-page-header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+ul{
+    list-style: none;
+}
+.logo{
+    font-size: 48px;
+}
+.text_main{
+    margin-top: 250px;
+}
+h1{
+    font-size: 76px;
+    font-weight: bold;
+}
+.header_title1{
+    margin-left: 200px;
+}
+.btn{
+    width: 200px;
+    height: 60px;
+}
+.btn-warning:hover{
+    background-color: blue;
+}
+.about{
+    height: 5px;
+    position: relative;
+    background-color: rgb(96, 96, 95);
+}
+.about1{
+    position: absolute;
+    height: 5px;
+    left: 0;
+}
+.about::before{
+    background-color: red;
+}
+#projects{
+    margin-top: 200px;
+}
+#carusel{
+    background-color: blueviolet;
+    height: 500px;
+}
+.testimonials,.services,.projects,.main_head_title,.latest_news,.yellow_title,.team_title,.contact_title{
+    font-size: 36px;
+    font-weight: bold;
+}
+.carusel_image1{
+    border-radius: 50%;
+}
+.carusel_title{
+    opacity: 0.8;
+    margin-left: 200px;
+}
+#Latest_News{
+    background-color: #222f36;
+}
+#yellow_line{
+    height: 150px;
+}
+.yellow_line{
+    height: 120px;
+}
+.card_image{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+.card_img{
+    height: 100%;
+    
+    border-radius: 50%;
+}
+.card_content{
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    right: 0%;
+}
+.card{
+    position: relative;
+}
+.card_icon2{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 0, 0);
+}
+.card_icon1{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 26, 255);
+}
+.card_icon3{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid rgb(212, 255, 0);
+}
+#contact_us{
+    height: 500px;
+    margin-top: 150px;
+}
+#massege{
+    width: 600px;
+    height: 300px;
+}
+#footer{
+    height: 400px;
+    margin-top: 150px;
+}
+@media (max-width:992px){
+    header{
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    h1{
+        font-size: 36px;
+    }
+    .nav_list{
+        display: none;
+    }
+}
