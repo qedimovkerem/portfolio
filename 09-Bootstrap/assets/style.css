@@ -124,7 +124,10 @@ h1{
     height: 400px;
     margin-top: 150px;
 }
-@media (max-width:992px){
+.bars{
+    display: none;
+}
+@media (min-width:768)and(max-width:992px){
     header{
         background-size: cover;
         background-position: center;
@@ -133,7 +136,59 @@ h1{
     h1{
         font-size: 36px;
     }
-    .nav_list{
+    .nav_area{
         display: none;
+    }
+    .bars{
+        display: block;
+        padding-left: 400px;
+    }
+    .nav_area1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .text_main{
+        margin-top: 30px;
+    }
+    .image{
+        width: 900px;
+    }
+    .carusel_title{
+        margin-left: 80px;
+    }
+    .card_content{
+        top: 140px;
+    }
+}
+@media (max-width:768px){
+    .bars{
+        display: block;
+        padding-left: 300px;
+    }
+    .nav_area{
+        display: none;
+    }
+    h1{
+        font-size: 24px;
+    }
+    .text_main{
+        margin-top: 20px;
+    }
+    .header_title1{
+        margin-left: 80px;
+    }
+    .image{
+        width: 600px;
+    }
+    .carusel_title{
+        margin-left: 40px;
+        height: 150px;
+        width: 600px;
+        margin-top: 0px;
+        overflow: hidden;
+    }
+    .card_content{
+        top: 140px;
+        padding-left: 20px;
     }
 }
