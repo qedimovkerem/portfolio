@@ -1,17 +1,17 @@
 // ?  task 1
-// let str="I am frontend DEVELOPER I LEARN Javascript";
-// let funksiya=(str)=>{
-//     let sait="aıeəioüuö";
-//     let say=[]
-//     for (let i = 0; i < str.length; i++) {
-//         if(sait.includes(str[i])){
-//             say.push(str[i]);
-//         }
-//     }
-//     return say;
-// }
-// let result=funksiya(str);
-// console.log(result);
+let str="I am frontend DEVELOPER I LEARN Javascript";
+let funksiya=(str)=>{
+    let sait="aıeəioüuö";
+    let say=[]
+    for (let i = 0; i < str.length; i++) {
+        if(sait.includes(str[i])){
+            say.push(str[i]);
+        }
+    }
+    return say;
+}
+let result=funksiya(str);
+console.log(result);
 
 // ? task 2
 // let funksiya=(str)=>{
@@ -152,26 +152,26 @@
 // console.log(funksiya());
 
 // ? task 5
-let funksiya=()=>{
-let uzunluq = 6;
-let arr = [];
-for (let i = 0; i < uzunluq; i++) {
-    arr.push(Math.floor(Math.random() * 100));
-};
-let cem = arr.reduce((acc, num) => acc + num, 0);
-let orta = cem / arr.length;
-let kvadrat = arr.map(num => Math.pow(num, 2));
-let kicik = Math.min(...arr);
-let boyuk = Math.max(...arr);
-return{arr:arr,kicik:kicik,boyuk:boyuk, orta:orta,cem:cem,kvadrat:kvadrat}
-};
-let result=funksiya()
-console.log("arr:", result.arr);
-console.log("en kicik eded:", result.kicik);
-console.log("en boyuk eded:", result.boyuk);
-console.log("orta:", result.orta);
-console.log("cem:", result.cem);
-console.log("ededlerin kvadrati:", result.kvadrat);
+// let funksiya=()=>{
+// let uzunluq = 6;
+// let arr = [];
+// for (let i = 0; i < uzunluq; i++) {
+//     arr.push(Math.floor(Math.random() * 100));
+// };
+// let cem = arr.reduce((acc, num) => acc + num, 0);
+// let orta = cem / arr.length;
+// let kvadrat = arr.map(num => Math.pow(num, 2));
+// let kicik = Math.min(...arr);
+// let boyuk = Math.max(...arr);
+// return{arr:arr,kicik:kicik,boyuk:boyuk, orta:orta,cem:cem,kvadrat:kvadrat}
+// };
+// let result=funksiya()
+// console.log("arr:", result.arr);
+// console.log("en kicik eded:", result.kicik);
+// console.log("en boyuk eded:", result.boyuk);
+// console.log("orta:", result.orta);
+// console.log("cem:", result.cem);
+// console.log("ededlerin kvadrati:", result.kvadrat);
 
 
 
