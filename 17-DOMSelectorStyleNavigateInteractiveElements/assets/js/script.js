@@ -18,6 +18,12 @@
 // }
 // console.log(cartContent);
 
+//  ! task1-1-2
+// let heart=document.querySelector(".heart");
+// let card=heart.closest(".card");
+// console.log(card);
+
+
 // ! task 1-2
 
 // let card =document.querySelector(".card")
