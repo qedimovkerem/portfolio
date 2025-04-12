@@ -26,7 +26,7 @@ function createTodo(e){
     span.textContent= input.value;
 
     let setting=document.createElement("div");
-    setting.classList.add("setting");
+    setting.classList. add("setting");
 
     let deleteIcon =document.createElement("i");
     deleteIcon.classList.add("fa-solid","fa-trash")

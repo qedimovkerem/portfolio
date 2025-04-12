@@ -1,0 +1,37 @@
+body {
+    height: 100vh;
+  }
+  
+  .register_area {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .register {
+    width: 400px;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 15px;
+    background-image: linear-gradient(rgb(136, 219, 252), rgb(179, 179, 174));
+  }
+  
+  .title{
+      text-align: center;
+  }
+  
+  .submit{
+      width: 100%;
+  }
+.password_check{
+    width: 20px;
+    height: 25px;
+    position: absolute;
+    top:35px;
+    right: 10px;
+    text-align: center;
+  }
+  .pasword{
+    position: relative;
+  }
