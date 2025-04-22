@@ -1,0 +1,6 @@
+.head{
+    background-image: url(../../assets/header-bg.jpg);
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+}

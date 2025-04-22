@@ -1,0 +1,15 @@
+.nav-list{
+    display: flex;
+    gap: 25px;
+}
+.nav-list-item {
+    list-style: none;
+    font-size: 20px;
+}
+.nav-list-item a{
+    color: white;
+    text-decoration: none;
+}
+.nav-list-item a:hover{
+    color: gold;
+}

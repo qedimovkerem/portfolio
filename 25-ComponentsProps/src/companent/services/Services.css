@@ -1,0 +1,14 @@
+.servis{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 30px;
+}
+.title{
+    text-align: center;
+    margin-top: 30px;
+}
+.hero-text{
+    font-size: 48px;
+    font-weight: bold;
+}
