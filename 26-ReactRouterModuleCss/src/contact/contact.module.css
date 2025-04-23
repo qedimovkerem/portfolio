@@ -1,0 +1,40 @@
+.title{
+    text-align: center;
+    margin: 40px;
+    padding-top: 60px;
+}
+.contact{
+    background-color: rgb(210, 227, 243);
+}
+.icon{
+    font-size: 30px;
+}
+.head-title{
+    font-size: 30px;
+}
+.form{
+    display: flex;
+   justify-content: center;
+}
+input{
+    height: 50px;
+    width: 400px;
+    margin:10px 0;
+    padding: 10px;
+}
+textarea{
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    resize: none;
+}
+.submit{
+    height: 50px;
+    width: 400px;
+    border-radius: 8px;
+    background-color: royalblue;
+    margin-top: 10px;
+    border: 1px solid royalblue;
+    color: white;
+    margin-bottom: 30px;
+}

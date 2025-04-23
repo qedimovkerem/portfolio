@@ -1,0 +1,9 @@
+.list{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.list-item{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}

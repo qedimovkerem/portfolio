@@ -1,0 +1,17 @@
+.card{
+    width: 400px;
+}
+.logo{
+    font-size: 24px;
+    background-color: royalblue;
+    padding: 10px;
+    width: 100px;
+    color: white;
+    margin:20px auto;
+}
+.pfoot{
+    color: royalblue;
+}
+h2{
+    margin-bottom: 20px;
+}

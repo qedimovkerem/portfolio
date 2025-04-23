@@ -1,0 +1,27 @@
+.card{
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    border: 1px solid wheat;
+    border-radius: 8px;
+    padding: 20px;
+}
+.p{
+    padding: 5px;
+}
+.price{
+    font-size: 30px;
+}
+.btn{
+    height: 30px;
+    width: 200px;
+    background-color: transparent;
+    border: 1px solid royalblue;
+    margin: 30px 80px;
+    color: royalblue;
+    border-radius: 8px;
+}
+.btn:hover{
+    background-color: royalblue;
+    color: white;
+}

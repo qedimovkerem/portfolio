@@ -1,0 +1,8 @@
+.foot{
+    background-color: rgba(33, 37, 41, 1);
+    height: 200px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

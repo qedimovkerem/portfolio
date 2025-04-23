@@ -1,0 +1,11 @@
+.title{
+    text-align: center;
+    margin: 30px;
+}
+.title-head{
+    font-size: 30px;
+}
+.card{
+     width: 400px;
+     margin: 30px auto;
+}

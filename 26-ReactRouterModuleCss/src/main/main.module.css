@@ -1,0 +1,39 @@
+h1{
+    color: white;
+    font-size: 56px;
+    padding-bottom: 20px;
+}
+.p{
+    color: rgb(177, 174, 174);
+    padding-bottom: 20px;
+}
+.main{
+   margin: 100px auto;
+   width: 600px;
+}
+.btn{
+    display:flex;
+    gap: 25px;
+    justify-content: center;
+}
+.btn1{
+    height: 50px;
+    width: 150px;
+    background-color: royalblue;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn2{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 8px;
+}
+.btn2:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}

@@ -1,0 +1,17 @@
+.card-area{
+    background-color: rgb(220, 233, 245);
+    padding: 40px;
+
+}
+.card{
+    display: flex;
+    gap: 70px;
+    justify-content: space-evenly;
+    margin: 40px auto;
+}
+.card-title{
+    font-size: 30px;
+}
+.title{
+    text-align: center;
+}
