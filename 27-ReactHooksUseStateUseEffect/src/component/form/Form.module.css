@@ -1,0 +1,81 @@
+.btn2:disabled{
+    cursor: not-allowed;
+}
+.btn2{
+    padding: 10px 20px;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    font-family: 'Segoe UI';
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .counter {
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  
+  .result {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2c3e50;
+    margin-left: 155px;
+  }
+  .buttonGroup {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .btn:hover {
+    background-color: #2980b9;
+  }
+  
+  .btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
