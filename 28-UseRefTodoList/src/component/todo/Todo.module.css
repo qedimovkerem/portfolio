@@ -1,0 +1,40 @@
+.todo_list{
+    width: 400px;
+}
+
+.todo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 240px;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+input{
+    height: 30px;
+    border-radius: 8px;
+}
+.add_Todo{
+    background-color: royalblue;
+    color: white;
+}
+.add_Todo:hover{
+    background-color: rgb(38, 64, 139);
+}
+.icons{
+    display: flex;
+    justify-content: end;
+}
+.li{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+}
+.btn_area{
+    display: flex;
+    gap: 5px;
+}
