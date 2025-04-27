@@ -1,0 +1,36 @@
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid black;
+  padding: 40px;
+  border-radius: 8px ;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+input{
+  height: 30px;
+  width: 250px;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+button{
+  background-color: royalblue;
+  color: white;
+}
+button:hover{
+  background-color: rgb(27, 50, 119);
+}
+li{
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+}
+.icons{
+  cursor: pointer;
+}
+.reset{
+  margin-top: 20px;
+}
+.list{
+  margin-left: 600px;
+}
