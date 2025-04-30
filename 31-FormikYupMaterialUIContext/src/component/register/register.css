@@ -1,0 +1,11 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid royalblue;
+    border-radius: 8px;
+    gap: 25px;
+    margin: 100px auto;
+    text-align: center;
+}
