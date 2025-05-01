@@ -7,7 +7,7 @@
       "email": "qedimov.kerem_052@gmail.com",
       "password": "Kerem123",
       "confirmPassword": "Kerem123",
-      "isLogined": true
+      "isLogined": false
     }
   ]
 }

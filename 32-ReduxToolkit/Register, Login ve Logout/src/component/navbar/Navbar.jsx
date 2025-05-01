@@ -50,7 +50,7 @@ const Navbar = () => {
   };
 
   const login = () => {
-    toast.success('Login səhifəsinə keçid edilir');
+    toast.success('Login sehifesine keçid edilir');
     setIslogined(true)
     setTimeout(() => {
       navigate("/login");
@@ -66,14 +66,14 @@ const Navbar = () => {
       });
     }
     setIslogined(false)
-    toast.success("Logout səhifəsinə keçid edilir");
+    toast.success("Logout sehifesine keçid edilir");
     setTimeout(() => {
       navigate('/logout');
     }, 2000);
   };
 
   const register = () => {
-    toast.success("Register səhifəsinə keçid edilir");
+    toast.success("Registersehifesine keçid edilir");
     setTimeout(() => {
       navigate('/register');
     }, 2000);
