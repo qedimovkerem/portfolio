@@ -1,0 +1,23 @@
+.count-area{
+    border: 1px solid rgb(192, 191, 191);
+    display: flex;
+    justify-content: space-around;
+}
+.minusbtn, .plusbtn{
+    background-color: transparent;
+    color: black;
+    border: 0;
+    cursor: pointer;
+}
+.minusbtn:disabled{
+    cursor: not-allowed;
+}
+.count{
+    background-color: transparent;
+    color: black;
+    border: 0;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+}

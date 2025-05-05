@@ -1,0 +1,29 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+input{
+    height: 35px;
+    border-top-left-radius: 8px;
+    border-end-start-radius: 8px;
+}
+button{
+    background-color: royalblue;
+    height: 35px;
+    color: white;
+    border-end-end-radius: 8px;
+    border-end-start-radius: 8px;
+}
+.list{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    cursor: pointer;
+}
+.link{
+    color: black;
+    text-decoration: none;
+}
