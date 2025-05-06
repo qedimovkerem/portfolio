@@ -10,6 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Wishlist from './pages/Wishlist'
 import Basket from './pages/basket/Basket'
 import DetailPages from './pages/detailPages/DetailPages'
+import Adminpanel from './pages/admin/Adminpanel'
 function App() {
   
  
@@ -37,6 +38,10 @@ function App() {
         {
           path:"/detailPages/:id",
           element:<DetailPages/>
+        },
+        {
+          path:'/adminpanel',
+          element:<Adminpanel/>
         }
       ]
     },

@@ -16,6 +16,7 @@ const Navbar = () => {
           <li><Link to={"/"} className='link'>Home</Link></li>
           <li>About</li>
           <li>Contact</li>
+          <li><Link to={"/adminpanel"} className='link'>AdminPanel</Link></li>
         </div>
         <div className="icons"style={{fontSize:"20px",display:"flex",gap:'10px' ,alignItems:"center" ,cursor:"pointer"}}>
         <Link className='link' to={'/Wishlist'}><CiHeart/><sup>{wishlist.length}</sup></Link>
