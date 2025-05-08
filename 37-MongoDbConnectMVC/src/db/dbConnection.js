@@ -6,4 +6,4 @@ mongoose.connect(process.env.MONGO_URL).then(()=>{
 .catch(()=>{
     console.log("Server not connect Mongodb");
     
-})
+});

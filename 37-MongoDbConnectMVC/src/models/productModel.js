@@ -6,6 +6,6 @@ const productSchema =mongoose.Schema({
     price:{type:Number,required:true},
 },{collection:"Products",timestamps:true});
 
-const product =mongoose.model("Product",productSchema)
+const product =mongoose.model("Product",productSchema);
 
 export default product;

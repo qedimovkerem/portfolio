@@ -62,4 +62,4 @@ export const  updateProduct =async(req,res)=>{
     } catch (error) {
         return res.status(500).send("server error")
     }
-}
+};
